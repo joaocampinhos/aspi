@@ -6,8 +6,8 @@ script:
     # SpellCheck
     # Lint
     - chktex -W
-    - chktex -q *.tex 2>/dev/null | tee lint.out
+    - chktex -q -n 12 -n 36 -n 2 -n 8 sintese.tex 2>/dev/null | tee lint.out
     - test ! -s lint.out
     # Compile
-    - pdflatex *.tex
+    #- pdflatex *.tex
     # Publish pdf
