@@ -5,11 +5,6 @@ script:
 - chktex -W
 - chktex -q -n 12 -n 36 -n 2 -n 8 sintese.tex 2>/dev/null | tee lint.out
 - test ! -s lint.out
-- rubber --pdf --warn all sintese.tex
-deploy:
-  provider: releases
-  api_key:
-    secure: XsSCRZioA9y20ynzGMpY1C9QoOtmVQS1tymRQgKDnHYvavl0sT/kFIwJDeBlIcI7l2Nce285ja2HCQ8KaLqiy2HWFd4agVI3OWTI4l1rjQi7mTS0my0O5p6GGMvotwmZSoh1Lmn0jImEIT/ReYuQfmrdabryTFCy/oJzivNQYhM=
-  file: sintese.pdf
-  on:
-    repo: joaocampinhos/aspi
+- mkdir build && rubber --into build --pdf --warn all sintese.tex
+after_success:
+-./deploy.sh --verbose
