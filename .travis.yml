@@ -7,4 +7,4 @@ script:
 - test ! -s lint.out
 - mkdir build && rubber --into build --pdf --warn all sintese.tex
 after_success:
--./deploy.sh --verbose
+- ./deploy.sh --verbose
