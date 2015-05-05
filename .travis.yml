@@ -1,0 +1,13 @@
+install:
+    - sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended 
+    - sudo apt-get install chktex
+
+script:
+    # SpellCheck
+    # Lint
+    - chktex -W
+    - chktex -q *.tex 2>/dev/null | tee lint.out
+    - test ! -s lint.out
+    # Compile
+    - pdflatex *.tex
+    # Publish pdf
