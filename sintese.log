@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.8)  8 MAY 2015 09:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.10)  10 MAY 2015 15:00
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/travis/build/joaocampinhos/aspi/sintese.tex"}
@@ -402,7 +402,19 @@ Package babel Warning: No hyphenation patterns were loaded for
 
 \l@portuges = a dialect from \language0
 Package babel Info: Making " an active character on input line 145.
-)) (/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+)) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count116
+))
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
@@ -430,11 +442,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count116
-))
+)
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
@@ -442,23 +450,22 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/home/travis/build/joaocampinhos/aspi/build/sintese.aux)
+No file sintese.aux.
 \openout1 = `sintese.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 35.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 37.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -475,94 +482,76 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \MPnumerator=\count121
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 75.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 73.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 75.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 75.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 73.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 75.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
+(Font)              <10> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 73.
+(Font)              <7> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 73.
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+(Font)              <5> on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 73.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 75.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 73.
+(Font)              <9> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 73.
+(Font)              <6> on input line 75.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (14.71658pt too wide) in paragraph at lines 154--159
-\T1/lmr/m/n/10 Springer pro-vides you with a com-plete in-te-grated L[]T[]X doc
--u-ment class (\T1/lmtt/m/n/10 llncs.cls\T1/lmr/m/n/10 )
- []
 
-[2] [3] [4] [5] [6]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 431.
- [7]
-(/home/travis/build/joaocampinhos/aspi/build/sintese.aux) ) 
+LaTeX Warning: Empty `thebibliography' environment on input line 109.
+
+[2] (/home/travis/build/joaocampinhos/aspi/build/sintese.aux) ) 
 Here is how much of TeX's memory you used:
- 2602 strings out of 495061
- 31158 string characters out of 1182622
- 87313 words of memory out of 3000000
- 5716 multiletter control sequences out of 15000+50000
- 67815 words of font info for 60 fonts, out of 3000000 for 9000
+ 2612 strings out of 495061
+ 31309 string characters out of 1182621
+ 87462 words of memory out of 3000000
+ 5731 multiletter control sequences out of 15000+50000
+ 45978 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,9n,24p,505b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fo
-nts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{
-/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips
-/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/shar
-e/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmtt9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-symbols/msam10.pfb>
-Output written on sintese.pdf (7 pages, 335185 bytes).
+ 30i,6n,24p,762b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texm
+f/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on sintese.pdf (2 pages, 144648 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
