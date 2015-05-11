@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.10)  10 MAY 2015 22:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.11)  11 MAY 2015 10:58
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/travis/build/joaocampinhos/aspi/sintese.tex"}
@@ -450,7 +450,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-No file sintese.aux.
+(/home/travis/build/joaocampinhos/aspi/build/sintese.aux)
 \openout1 = `sintese.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -466,6 +466,7 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 36.
+
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -532,37 +533,39 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (9.65285pt too wide) in paragraph at lines 129--130
+Overfull \hbox (9.65285pt too wide) in paragraph at lines 117--118
 \T1/lmr/m/n/10 Como pode-mos con-statar, quando nos refe-r-i-mos a um agente co
 m super-inteligência
  []
 
 
-Overfull \hbox (3.37543pt too wide) in paragraph at lines 137--138
+Overfull \hbox (3.37543pt too wide) in paragraph at lines 125--126
 \T1/lmr/m/n/10 A ficção habituou-nos a este tipo de cenário: Um agente super-in
 teligente malévolo
  []
 
 [3]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 149.
+Underfull \hbox (badness 3428) in paragraph at lines 140--141
+[]\T1/lmr/m/n/9 Stanford En-cy-clo-pe-dia of Phi-los-o-phy, $\T1/lmtt/m/n/9 htt
+p : / / plato . stanford . edu / entries /
+ []
 
 [4] (/home/travis/build/joaocampinhos/aspi/build/sintese.aux) ) 
 Here is how much of TeX's memory you used:
- 2614 strings out of 495061
- 31332 string characters out of 1182621
- 87462 words of memory out of 3000000
- 5732 multiletter control sequences out of 15000+50000
+ 2620 strings out of 495061
+ 31476 string characters out of 1182621
+ 88478 words of memory out of 3000000
+ 5736 multiletter control sequences out of 15000+50000
  48973 words of font info for 50 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,7n,24p,762b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,6n,24p,961b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texm
 f/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmtt9.pfb>
-Output written on sintese.pdf (4 pages, 181457 bytes).
+Output written on sintese.pdf (4 pages, 185386 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
