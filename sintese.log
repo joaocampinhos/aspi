@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.11)  11 MAY 2015 10:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.11)  11 MAY 2015 21:34
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/travis/build/joaocampinhos/aspi/sintese.tex"}
@@ -532,42 +532,46 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (9.65285pt too wide) in paragraph at lines 117--118
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+Overfull \hbox (9.65285pt too wide) in paragraph at lines 159--160
 \T1/lmr/m/n/10 Como pode-mos con-statar, quando nos refe-r-i-mos a um agente co
 m super-inteligência
  []
 
-
-Overfull \hbox (3.37543pt too wide) in paragraph at lines 125--126
+[5]
+Overfull \hbox (3.37543pt too wide) in paragraph at lines 176--177
 \T1/lmr/m/n/10 A ficção habituou-nos a este tipo de cenário: Um agente super-in
 teligente malévolo
  []
 
-[3]
-Underfull \hbox (badness 3428) in paragraph at lines 140--141
-[]\T1/lmr/m/n/9 Stanford En-cy-clo-pe-dia of Phi-los-o-phy, $\T1/lmtt/m/n/9 htt
-p : / / plato . stanford . edu / entries /
+[6]
+Overfull \hbox (1.79382pt too wide) in paragraph at lines 190--191
+\T1/lmr/m/n/10 feitos a es-pe-cial-is-tas da área da in-teligên-cia ar-ti-fi-ci
+al, es-ta-mos per-ante os seguintes
  []
 
-[4] (/home/travis/build/joaocampinhos/aspi/build/sintese.aux) ) 
+[7] [8] (/home/travis/build/joaocampinhos/aspi/build/sintese.aux) ) 
 Here is how much of TeX's memory you used:
- 2620 strings out of 495061
- 31476 string characters out of 1182621
- 88478 words of memory out of 3000000
- 5736 multiletter control sequences out of 15000+50000
- 48973 words of font info for 50 fonts, out of 3000000 for 9000
+ 2628 strings out of 495061
+ 31545 string characters out of 1182621
+ 88494 words of memory out of 3000000
+ 5742 multiletter control sequences out of 15000+50000
+ 54953 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,6n,24p,961b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texm
-f/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtt9.pfb>
-Output written on sintese.pdf (4 pages, 185386 bytes).
+ 30i,9n,24p,963b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/
+texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
+mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fon
+ts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on sintese.pdf (8 pages, 251271 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
