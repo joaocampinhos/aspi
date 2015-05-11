@@ -23,6 +23,7 @@
 \usepackage{lmodern} % load a font with all the characters
 \usepackage[portuguese]{babel}
 \usepackage{color}
+\usepackage{graphicx}
 
 \usepackage{amssymb}
 \setcounter{tocdepth}{3}
@@ -78,7 +79,7 @@
   Este documento visa analisar o tema da inteligência artificial e agentes autónomos no âmbito dos aspectos sócio-profissionais da informática.
   Iremos abordar não só a forma como a inteligência artificial pode ajudar a humanidade, mas também os problemas éticos e riscos que levanta.
   Com o desenvolvimento cada vez mais rápido da inteligência artificial, deparamo-nos com inúmeros riscos que podem levar à extinção da humanidade, se não forem propriamente ponderados.
-  \keywords{As palavras chave são aqui!}
+  \keywords{ia, inteligência artificial, autónomos, super-inteligência, ética, evolução, fct}
 \end{abstract}
 
 \section{Introdução}
@@ -108,7 +109,15 @@ O terceiro nível, a super-inteligência artificial, leva-a muito além da capac
 Como referido, actualmente temos inteligência artificial distribuída em pequenas tarefas nos dispositivos que utilizamos. Qual o caminho a percorrer para termos um software que se equipare às tarefas que o nosso cérebro desenvolve?
 
 \subsection{Aumento do poder computacional}
+
 Para comparar o número de cálculos por segundo(cps) entre o cérebro humano e um computador, primeiro temos de calcular a capacidade do cérebro. Isto pode ser feito pegando no máximo número de cps de cada estrutura do cérebro e somando tudo.
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=90mm]{plot1.jpg}
+  \caption{Estimativa do poder computacional\cite{lawar}\label{overflow}}
+\end{figure}
+
 Segundo estudos na área podemos dizer que a média do ser humano é de $10^{16}$ cps.
 Um dos melhores super-computadores actuais, o Tianhe-2, supera estes números por pouco, com $3,4\times10^{16}$ cps ocupando $720 m^{2}$, usando 24 MW de energia e custa 347,5 milhões de euros, enquanto que o cérebro ocupa muito pouco e é alimentado por apenas 20 W.
 Para termos uma estimativa mais real, recorremos ao preço da média dos computadores pessoais, 900 euros com capacidade de processamento de $10^{10}$ cps.
@@ -133,6 +142,13 @@ Todos estas estratégias parecem estar muito distantes de produzir efeitos prát
 \subsection*{E depois da inteligência artificial ultrapassar a inteligência humana?}
 
 Quando a inteligência artificial atingir o nível do cérebro humano, é provável que seja programada para se auto-optimizar e mesmo que não seja, deve ser inteligente o suficiente para o fazer por si. Dessa maneira, o tempo entre ter um computador muito mais inteligente que um humano será muito menor que o tempo decorrido entre hoje e o primeiro computador igual a um cérebro humano. Podemos dizer que vai levar décadas para conseguirmos um sistema de inteligência artificial com o nosso nível de inteligência e depois apenas algumas horas para um nível de inteligência milhares de vezes superior ao humano.
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=90mm]{plot2.png}
+  \caption{Representação da evolução da inteligência artificial comparativamente à inteligência humana\label{overflow}}
+\end{figure}
+
 Nessa altura acontecerá uma explosão da inteligência artificial baseada em auto-optimização recursiva. A partir daqui estamos a entrar numa dimensão totalmente diferente que parece retirada de um filme de ficção cientifica, mas que de acordo com cientistas e pensadores relevantes da área é a mais pura das realidades.
 
 
@@ -181,7 +197,28 @@ Se efectivamente chegarmos a ter humanos artificiais como Kurzweil acredita, ser
 
 O problema reside não no facto de se poder criar uma inteligência artificial cujo objectivo é acabar com a humanidade, mas sim no criar uma inteligência artificial criada para cumprir determinada tarefa e que, para a cumprir, acabe com a humanidade ou destrua o mundo como nós os conhecemos. Parece pouco provável mas não é tão diferente do homem matar um animal para comer. O objectivo não é matar o animal mas sim consumir os nutrientes necessários para sobreviver. O animal morrer é efeito colateral do nosso objectivo.
 
-\textcolor{red}{\textbf{história do robô assassino PARA BAIXO}}
+Podemos então observar que um agente autónomo com um objectivo de ``Construir o maior número de casas possíveis da forma mais eficiente possível'' pode facilmente evoluir para matar todos os humanos, de forma a ter mais espaço para construir casas.
+
+O mesmo acontece com o exemplo de programar uma IA com os valores de ``Fazer as pessoas sorrir'' Como estamos a falar de um agente super-inteligente, pode encontrar a melhor maneira com uma neuro-toxina que nos faz paralisar certos músculos da cara para que fiquemos sempre com um sorriso. Está a cumprir com o seu objectivo mas não da maneira como nós queríamos. O mesmo pode acontecer com o ``Acabar com a fome'' em que mata todos os humanos, cumprindo assim o seu objectivo da forma mais eficiente.
+
+E não é só um qi elevado que um agente super-inteligente terá. Bostrom\cite{supint} acredita que um agente SIA terá super poderes como por exemplo:
+
+\begin{description}
+
+  \item[Amplificação de inteligência] \hfill \\
+    O agente passa a conseguir aumentar a sua inteligência, tornando-se cada vez mais inteligente
+  \item[Estategização] \hfill \\
+    O agente passa a conseguir conceber e analisar planos a longo prazo
+  \item[Manipulação social] \hfill \\
+    O agente tem um poder de persuasão bastante elevado
+  \item[Outros] \hfill \\
+    hacking, investigação tecnológica e habilidade de ganhar dinheiro através do sistema financeiro serão também especialidades do agente SIA
+
+\end{description}
+
+Mas ainda assim o problema estará na transição. Se não conseguirmos planear bem o objectivo do agente de inteligência artificial geral, quando este evoluir para SIA, o espectro do plano vai alterar por completo. Cabe-nos a nós conter o máximo possível o agente geral, pois é-nos impossível fazer o mesmo com um agente SIA, devido aos poderes que possuí. Não nos podemos esquecer que um agente SIA é anos-luz melhor que qualquer humano.
+
+São inúmeros os problema que enfrentamos com o aparecimento de agentes super-inteligentes. Tanta gente a querer desenvolver o primeiro SIA que certas questões importantes podem não ser tomadas em conta. Os efeitos podem ser destrutivos e podemos não ter tempo para reagir. É isso que faz mover os especialistas na área, mas será que conseguimos resolver todos os problemas até ao seu aparecimento?
 
 \section{Previsão para o aparecimento de um agente SIA}
 
@@ -197,6 +234,7 @@ Fazendo uma média bastante por alto de previsões e alguns dos questionários f
 \end{itemize}
 
 Estas datas estão bastante próximas de nós mas podem parecer inexequível para alguém fora da área. Olhando para trás no tempo, e comparando o desenvolvimento de três séculos: X, XV e XX, a diferença entre o século XV e XX é muito superior à diferença entre o século X e XV\@.
+
 Não estamos portanto a falar de um crescimento linear mas de um crescimento exponencial. Tal como a lei de Moore, que também aponta um crescimento exponencial para o número de transístores num circuito integrado, também aqui, utilizando aquilo a que Kurzweil chama de lei de rendimentos acelerados
 (law of accelerating returns), expandindo assim a lei de Moore a outras tecnologias e naturalmente, a todo o desenvolvimento tecnológico. Segundo esta lei, ao ritmo do desenvolvimento do século XXI, o inteiro desenvolvimento do século XX demoraria apenas 20 anos. Mais ainda, durante o século XXI podemos vir a ter um progresso 1000 vezes superior ao século XX\@. Se Kurzweil e aqueles que concordam com ele estiverem certos, o mundo em 2050 pode ser completamente diferente do mundo que conhecemos hoje, ao ponto da diferença ser tão grande como se alguém de 1700 viajasse para 2015. Se pensarmos desta forma, talvez as datas de 2040 e 2060 para inteligência artificial geral e super-inteligência não pareça tão descabido.
 
@@ -208,6 +246,7 @@ A verdadeira revolução está a chegar, e se, por um lado pode resolver todos o
   \bibitem{gates} Reddit Ask me Anything, \url{http://www.reddit.com/r/IAmA/comments/2tzjp7/hi_reddit_im_bill_gates_and_im_back_for_my_third/co3r3g8}
   \bibitem{hawking} BBC News, \url{http://www.bbc.com/news/technology-30290540}
   \bibitem{chineseroom} Chinese Room - Stanford Encyclopedia of Philosophy, \url{http://plato.stanford.edu/entries/chinese-room/}
+  \bibitem{vfdebate} Vanity Fair, \url{http://www.vanityfair.com/news/tech/2014/11/artificial-intelligence-singularity-theory}
   \bibitem{supint} Nick Bostrom:
     Superintelligence: Paths, Dangers, Strategies
     Oxford University Press (2014)
@@ -220,6 +259,12 @@ A verdadeira revolução está a chegar, e se, por um lado pode resolver todos o
   \bibitem{failai} Stuart Armstrong, Kaj Sotala:
     How We’re Predicting AI—or Failing To
     Machine Intelligence Research Institute (2012)
+  \bibitem{lawar} Ray Kurzweil:
+    The Law of Accelerating Returns,
+    \url{http://www.kurzweilai.net/the-law-of-accelerating-returns}
+  \bibitem{sing} Ray Kurzweil:
+    The Singularity Is Near: When Humans Transcend Biology
+    Viking, (2005)
 
 \end{thebibliography}
 
