@@ -57,9 +57,9 @@
 % the affiliations are given next; don't give your e-mail address
 % unless you accept that it will be published
 \institute{Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa,\\
-Quinta da Torre, 2829 -- 516 Caparica, Portugal\\
-\mailsa\\
-\mailsb\\
+  Quinta da Torre, 2829 -- 516 Caparica, Portugal\\
+  \mailsa\\
+  \mailsb\\
 \url{http://http://www.fct.unl.pt}}
 
 %
@@ -75,28 +75,70 @@ Quinta da Torre, 2829 -- 516 Caparica, Portugal\\
 
 
 \begin{abstract}
-Este documento visa analisar o tema da inteligência artificial e agentes autónomos no âmbito dos aspectos sócio-profissionais da informática.
-Iremos abordar não só a forma como a inteligência artificial pode ajudar a humanidade, mas também os problemas éticos e riscos que levanta.
-Com o desenvolvimento cada vez mais rápido da inteligência artificial, deparamo-nos com inúmeros riscos que podem levar à extinção da humanidade, se não forem própriamente ponderados.
-\keywords{As palavras chave são aqui!}
+  Este documento visa analisar o tema da inteligência artificial e agentes autónomos no âmbito dos aspectos sócio-profissionais da informática.
+  Iremos abordar não só a forma como a inteligência artificial pode ajudar a humanidade, mas também os problemas éticos e riscos que levanta.
+  Com o desenvolvimento cada vez mais rápido da inteligência artificial, deparamo-nos com inúmeros riscos que podem levar à extinção da humanidade, se não forem propriamente ponderados.
+  \keywords{As palavras chave são aqui!}
 \end{abstract}
 
 \section{Introdução}
 
-A inteligência artificial está muito associada a robôs pois este é um tema bastante abordado no cinema. Geralmente nesses filmes, os engenheiros que programam estes agentes autónomos criam algo maior que eles próprios e que deixam de poder controlar. Mas isto é ficção, e na realidade e o nosso objectivo com este documento é tentar aproximar este tema da realidade, pois apesar de ainda estarmos numa fase bastante embrionária no desenvolvimento de agentes autónomos, é uma área potencialmente perigosa, e cabe-nos a nós, engenheiros e futuros engenheiros informáticos, com um desenvolvimento responsável fazer com que o mau da inteligência artificial nunca venha ao de cima.
+A inteligência artificial está muito associada a robôs pois este é um tema bastante abordado no cinema. Geralmente nesses filmes, os engenheiros que programam estes agentes autónomos criam algo maior que eles próprios e que deixam de poder controlar. Mas isto é ficção, e na verdade o nosso objectivo com este documento é tentar aproximar este tema da realidade, pois apesar de ainda estarmos numa fase bastante embrionária no desenvolvimento de agentes autónomos, é uma área potencialmente perigosa, e cabe-nos a nós, engenheiros e futuros engenheiros informáticos, com um desenvolvimento responsável fazer com que o mau da inteligência artificial nunca venha ao de cima.
 
-Existe ainda uma certa relutância e negação quando é abordado este tema, pois para algumas pessoas, Parece tão provável o desenvolvimento de um agente superinteligente como uma invasão de vampiros. Na verdade, cada vez mais pessoas importantes na área estão a levá-lo a sério, como é o caso do Elon Musk, cofundador do Paypal e Tesla Motors e fundador da empresa de exploração espacial SpaceX, que doou 10 milhões de dólares para o instituto Future of Life Institute\cite{FLI}, numa tentativa de promover um desenvolvimento da inteligência artificial e agentes autónomos estritamente beneficiais para a humanidade. Bill gates afirma que ``Não percebo como existem pessoas que não estão preocupadas com o assunto``\cite{gates} e também Stephen Hawking alerta ``O desenvolvimento da inteligencia artificial pode ditar o fim da raça humana``\cite{hawking}.
+Existe ainda uma certa relutância e negação quando é abordado este tema, pois para algumas pessoas, parece tão provável o desenvolvimento de um agente super-inteligente como uma invasão de vampiros. Na verdade, cada vez mais pessoas importantes na área estão a levá-lo a sério, como é o caso do Elon Musk, cofundador do Paypal e Tesla Motors e fundador da empresa de exploração espacial SpaceX, que doou 10 milhões de dólares para o instituto Future of Life Institute\cite{FLI}, numa tentativa de promover um desenvolvimento da inteligência artificial e agentes autónomos estritamente beneficiais para a humanidade. Bill Gates afirma que ``Não percebo como existem pessoas que não estão preocupadas com o assunto``\cite{gates} e também Stephen Hawking alerta ``O desenvolvimento da inteligência artificial pode ditar o fim da raça humana``\cite{hawking}.
 
-E isto são apenas alguns exemplos de personalidades bastante relevantes na área preocupadas, mas as discussões sobre este tema já duram à vários anos na comunidade cientifica. Podemos estar muito mais perto de uma revolução da inteligência artificial do que imaginamos, ao ponto dos cientistas acreditarem que em apenas 20 anos podemos vir a ter interligência artificial ao nível dos humanos.
+E isto são apenas alguns exemplos de personalidades bastante relevantes na área preocupadas, mas as discussões sobre este tema já duram à vários anos na comunidade cientifica. Podemos estar muito mais perto de uma revolução da inteligência artificial do que imaginamos, ao ponto dos cientistas acreditarem que em apenas 20 anos podemos vir a ter inteligência artificial ao nível dos humanos.
 
-\section{Tipos de inteligência Artificial}
+\section{Tipos de inteligência artificial}
+
+Começando agora por falar na inteligência artificial. Neste momento (Maio de 2015) temos inteligência artificial em diversos objectos do nosso dia-a-dia. Mas essa inteligência artificial acaba por ser apenas benéfica para nós sem qualquer tipo de problema. O maior problema ético será a quantidade de informação que esses sistemas guardam sobre nós\fotnote{Neste caso estamo-nos a referir a empresas como a Google que guarda o nosso histórico de pesquisa e sites visitados e locais onde fomos, entre outros dados sensíveis}. Neste documento vamos um pouco mais à frente falar na inteligência artificial que está neste momento a ser desenvolvida e cujo seu aparecimento tem muito mais consequências para nós. Vamos então classificar os vários tipos de inteligência artificial.
+
+\subsection{Inteligência artificial restrita}
+O primeiro nível encontra-se em muitos dos objectos do nosso dia-a-dia. Este nível denomina-se por inteligência artificial restrita. Restrita porque consegue ser mais inteligente e eficiente que o ser humano em tarefas muito especificas.
+Temos como exemplos disto os diferentes sistemas que controlam os veículos actuais em funções como a travagem ou injecção de combustível para o motor, nos telemóveis quando usamos um mapa e obtemos direcções, no email ao automaticamente seleccionar o que é spam, no serviço Google translate e muitos outros exemplos.
+
+\subsection{Inteligência artificial geral}
+O segundo nível compara a inteligência artificial ao nível do ser humano, ou seja, uma máquina que consiga realizar tarefas intelectuais assim como o nosso cérebro. Tarefas como raciocinar, resolver problemas, pensar abstractamente, compreender ideias complexas e a habilidade de aprender.
+
+\subsection{Super-inteligência artificial}
+O terceiro nível, a super-inteligência artificial, leva-a muito além da capacidade do cérebro humano a todos os níveis. Veremos mais à frente que a distancia do salto do segundo para o terceiro nível é praticamente nulo, visto que a evolução da inteligência artificial é exponencial. É também neste nível que se impõem questões de extrema importância em relação ao nosso papel como seres humanos nesse contexto.
+
+\section{Evolução da inteligência artificial}
+
+Como referido, actualmente temos inteligência artificial distribuída em pequenas tarefas nos dispositivos que utilizamos. Qual o caminho a percorrer para termos um software que se equipare às tarefas que o nosso cérebro desenvolve?
+
+\subsection{Aumento do poder computacional}
+Para comparar o número de cálculos por segundo(cps) entre o cérebro humano e um computador, primeiro temos de calcular a capacidade do cérebro. Isto pode ser feito pegando no máximo número de cps de cada estrutura do cérebro e somando tudo.
+Segundo estudos na área podemos dizer que a média do ser humano é de $10^{16}$ cps.
+Um dos melhores super-computadores actuais, o Tianhe-2, supera estes números por pouco, com $3,4\times10^{16}$ cps ocupando $720 m^{2}$, usando 24 MW de energia e custa 347,5 milhões de euros, enquanto que o cérebro ocupa muito pouco e é alimentado por apenas 20 W.
+Para termos uma estimativa mais real, recorremos ao preço da média dos computadores pessoais, 900 euros com capacidade de processamento de $10^{10}$ cps.
+Recorrendo depois à lei de Moore que diz que a capacidade de processamento aumenta para o dobro a cada dois anos, prevê-se que daqui aproximadamente 10 anos tenhamos uma máquina a um valor aceitável com poder de computação de $10^{16}$ cps.
+
+\subsection{Tornar o software “inteligente”}
+
+Ainda não existe uma solução certa para este problema, apenas debate em volta da mesma. Actualmente existem três estratégias de abordagem para este problema.
+
+\begin{enumerate}
+  \item A primeira baseia-se a imitar o comportamento do cérebro, isto porque, quando não se conhece uma maneira de chegar lá, o melhor é aproveitar o exemplo que temos disponível.
+Não sendo esta tarefa fácil, tenta-se recorrer a técnicas de reverse engineering para perceber o comportamento do cérebro nas suas operações. Um exemplo desta mímica são as redes neuronais artificiais que já estudámos. Neste caso cria-se uma rede de neurónios que de inicio não têm qualquer informação, mas com o decorrer do tempo as ligações que produzem bons resultados são fortalecidas e as que produzem maus resultados são enfraquecidas. Depois de algo tempo de tentativa e erro é criada um rede que é optimizada para uma certa tarefa.
+Outra maneira mais extrema de plagiar o cérebro humano é dividi-lo em camadas, examinar cada uma delas, criar um modelo de cada em software e implementar esse modelo num computador. Se isso for possível teremos um computador capaz de executar as mesmas tarefas que o cérebro humano. Recentemente foi conseguido emular um cérebro com 302 neurónios. O cérebro humano tem 100 mil milhões.
+  \item A segunda estratégia consiste em recriar o que a evolução natural fez ao longo dos anos. A motivação desta técnica passa pelo cérebro ser demasiado difícil de recriar, então vamos recriar a evolução que fez que se chegasse a ele.
+Para isso, conhecemos os já estudados algoritmos genéticos. Estes baseiam-se em ter vários espécimes que tentam sobreviver num determinado ambiente. Os que têm melhores resultados são procriados entre si e os que têm piores resultados são eliminados. Depois de algum tempo de selecção natural obtém-se um ser, ou neste caso computador, mais inteligente.
+O problema desta abordagem é que a selecção natural demora milhares de milhões de anos, mas visto que esta pode ser programada para ir num determinado sentido, diminui em muito este tempo.
+  \item A terceira abortarem passa por criar um software num computador, que seja um cientista, que investigue sobre inteligência artificial e em vez de sermos nós a desenvolver o computador, ele desenvolve-se a si mesmo.
+\end{enumerate}
+
+Todos estas estratégias parecem estar muito distantes de produzir efeitos práticos, mas tendo em conta a evolução exponencial e as descobertas cientificas que de um momento para o outro mudam a maneira de algo ser feito, esse futuro pode estar bem mais próximo do que pensamos.
+
+\subsection*{E depois da inteligência artificial ultrapassar a inteligência humana?}
+
+Quando a inteligência artificial atingir o nível do cérebro humano, é provável que seja programada para se auto-optimizar e mesmo que não seja, deve ser inteligente o suficiente para o fazer por si. Dessa maneira, o tempo entre ter um computador muito mais inteligente que um humano será muito menor que o tempo decorrido entre hoje e o primeiro computador igual a um cérebro humano. Podemos dizer que vai levar décadas para conseguirmos um sistema de inteligência artificial com o nosso nível de inteligência e depois apenas algumas horas para um nível de inteligência milhares de vezes superior ao humano.
+Nessa altura acontecerá uma explosão da inteligência artificial baseada em auto-optimização recursiva. A partir daqui estamos a entrar numa dimensão totalmente diferente que parece retirada de um filme de ficção cientifica, mas que de acordo com cientistas e pensadores relevantes da área é a mais pura das realidades.
+
 
 \section{Agentes de Super-inteligência Artificial}
 
-\textcolor{red}{Falar um bocado disto}
-
-É importante fazermos a distinção no que a super-inteligência artificial diz respeito
-
+Vamos agora aprofundar a super-inteligência artificial pois é essa a que mais problemas (e possíveis benefícios) nos trás. É importante fazermos a distinção no que a super-inteligência artificial diz respeito e classificarmos também dois tipos de super-inteligência.
 
 \subsection{Super-inteligência de velocidade}
 
@@ -118,7 +160,16 @@ Como podemos constatar, quando nos referimos a um agente com super-inteligência
 
 Na verdade, a comunidade científica não está muito preocupada com este cenário, pois na verdade o problema não está nas intenções dos criadores do agente SIA mas sim no facto desse grupo ter apressado o seu desenvolvimento sem utilizar uma abordagem responsável, levando à perda do controlo sobre o agente SIA\@. Existe sempre o problema de um agente SIA ser criado por um grupo com fins maliciosos, mas qualquer grupo vai ter o mesmo problema em controlar o agente super-inteligente, seja esse grupo bom ou mau.
 
-\textcolor{red}{FALAR DOS BIONICOS}
+No entanto, podemos observar a comunidade cientifica dividida em dois quadrantes. Um bastante optimista que vê a chegada de um agente SIA como um sonho tornado realidade e outra parte mais relutante e apreensiva, que teme os efeitos da criação de um agente super-inteligente. Com mais detalhe vamos abordar ambas as visões, e quais as consequências e implicações éticas que o aparecimento de um agente SIA pode ter.
+
+\subsection{Imortalidade e nanotecnologia}
+
+Assumindo que fazemos uma transição pacifica para um SIA, os benefícios para a humanidade são incalculáveis. Ray Kurzweil, inventor conhecido e director de engenharia na Google, está bastante optimista e tem umas visões bastante futuristas.
+
+
+\textbf{Visões}
+
+E apesar das previsões de Kurzweil parecerem saídas de um filme de ficção cientifica, a comunidade cientifica não descarta essa possibilidade, mas não tão cedo como Kurzweil afirma. Falaremos nas previsões para estes acontecimentos mais à frente, mas é importante ressalvar que é muito difícil prever com precisão devido a algo chamado enviesamento cognitivo\footnote{dificuldade em acreditar que algo é real até haver uma prova. Um bom exemplo é pensar em quantas pessoas nos anos 80 acreditavam que a Internet iria mudar as suas vidas.}.
 
 \subsection{Destruição mundial e consciência}
 
@@ -130,7 +181,22 @@ Se efectivamente chegarmos a ter humanos artificiais como Kurzweil acredita, ser
 
 O problema reside não no facto de se poder criar uma inteligência artificial cujo objectivo é acabar com a humanidade, mas sim no criar uma inteligência artificial criada para cumprir determinada tarefa e que, para a cumprir, acabe com a humanidade ou destrua o mundo como nós os conhecemos. Parece pouco provável mas não é tão diferente do homem matar um animal para comer. O objectivo não é matar o animal mas sim consumir os nutrientes necessários para sobreviver. O animal morrer é efeito colateral do nosso objectivo.
 
-\textcolor{red}{\textbf{TURRY PARA BAIXO}}
+\textcolor{red}{\textbf{história do robô assassino PARA BAIXO}}
+
+\section{Previsão para o aparecimento de um agente SIA}
+
+Existem várias previsões para o aparecimento de um SIA, mas onde uma grande maioria dos cientistas estão de acordo é que primeiro: O surgimento da super-inteligência é inevitável e segundo: este acontecimento vai ter lugar no século XXI\@.
+
+Fazendo uma média bastante por alto de alguns dos questionários feitos a cientistas da área da inteligência artificial, estamos perante os seguintes números:
+
+\begin{itemize}
+
+  \item 2040 - Aparecimento do primeiro agente de inteligência artificial equiparado ao humano
+  \item 2060 - Aparecimento do primeiro agente de super-inteligência artificial
+
+\end{itemize}
+
+Estas datas estão bastante próximas de nós. Estima-se que um
 
 \begin{thebibliography}{4}
 
